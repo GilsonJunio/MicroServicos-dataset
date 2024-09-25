@@ -15,7 +15,13 @@ import pandas as pd
 
 dataset = pd.read_csv("./laptop_prices.csv")
 
+print(dataset)
 
+
+df = pd.DataFrame(dataset)
+
+for i in df.columns:
+	print(i)
 #print(df)
 # print(df.head(12))
 # #print(df.tail(12))
@@ -24,15 +30,12 @@ dataset = pd.read_csv("./laptop_prices.csv")
 # colunas = df.columns
 
 # print(colunas)
-df = pd.DataFrame(dataset)
 # print(df)
 
 # colunas = df.columns.astype('object')
 
 
 
-for i in df.columns:
-	print(i)
 	# colunas = {i:i}
 
 	# print(colunas)
