@@ -1,0 +1,7 @@
+.head(n)
+.tail(n)
+.DataFrame()
+.read_csv('path')
+.astype()
+.loc()
+.iloc()
